@@ -1,4 +1,4 @@
-function onClickNavHandler() {
+    function onClickNavHandler() {
     for (const link of document.querySelectorAll("nav li a")) {
         link.addEventListener('click', function(event) {
             // hide all containers
